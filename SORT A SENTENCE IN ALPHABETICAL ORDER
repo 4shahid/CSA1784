@@ -1,0 +1,8 @@
+def F(S):
+    W = S.split(" ")
+    for i in range(len(W)):
+        W[i] = W[i].lower()
+    W.sort()
+    return ' '.join(W)
+S = "Shahid is a good boy"
+print(F(S))
